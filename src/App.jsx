@@ -1,8 +1,12 @@
-import PokeBrowser from './components/PokeBrowser'
-import './App.css'
+// App.jsx
+import React from 'react';
+import PokeNav from './components/PokeNav';
+import './App.css'; // Import the updated CSS file
 
 function App() {
-  return <PokeBrowser />
+  return (
+    <PokeNav />
+  );
 }
 
-export default App
+export default App;
